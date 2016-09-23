@@ -2,13 +2,26 @@
 <html lang="en">
 
 <head>
+	<link type= "text/css" rel= "stylesheet" href = "style.css">
 	<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>DevMtin</title>
 </head>
 
-<body>
+<body ng-controller ="mainController">
+	{{test}}
 
-  
+  <footer>
+		<ul>
+			<li id="navItem">View Friends</li>
+			<li id="navItem">Find Friends</li>
+			<li id="navItem">Update Profile</li>
+			</ul>
+			<footer>
+			<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+			<script src="app.js"></script>
+			<script src="mainController.js"></script>
+			<script src="mainServices.js"></script>
+
 </body>
 </html>
