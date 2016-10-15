@@ -1,0 +1,122 @@
+body {
+  padding-left:50px;
+
+}
+header {
+
+}
+p {
+margin:0;
+padding-left:10px;
+}
+.mainContainer {
+position:relative;
+
+
+}
+
+
+
+.textInputContainer {
+  font-family:'Lora-Regular', serif;
+  font-size: 12.07px;
+  line-height: 14px;
+  color:#232323;
+
+}
+.inputBox  {
+  display:block;
+  font-family: 'Lora-Regular';
+  font-size: 16.8px;
+  line-height: 21px;
+  color: #272727;
+  width:200px;
+  border-width:1px;
+  border-color: #EEEDED;
+  margin:10px;
+  border-style:solid;
+
+}
+.saveChangesContainer {
+  font-family: 'Lora-Regular';
+  font-size: 13.44px;
+  line-height: 17px;
+  color:#9A9A9A;
+  width:200px;
+}
+.menuContainer {
+  display:flex;
+}
+.navContainer {
+  display:flex;
+  height:50px;
+  background-color: blue;
+  position:relative;
+
+  margin-top:101px;
+}
+.horizontalLine {
+  color:#9A9A9A;
+}
+#initialText {
+  font-family: 'Lora-Regular';
+  font-size:40px;
+  text-align: center;
+  padding-top:15px;
+
+}
+#searchButton {
+  padding-top: 40px;
+  width:50px;
+  flex:1;
+}
+#saveButton {
+  background-color: #00FFE9;
+  font-family: 'Lora-Regular';
+  font-size: 13.44px;
+  line-height: 17px;
+  border:transparent;
+  width:180px;
+  color:#9A9A9A;
+  padding-left:20px;
+  text-align: center;
+}
+#companyName {
+  font-family: 'Lora-Regular';
+  font-size:16.8px;
+  line-height: 21px;
+  color:#272727;
+  text-align:center;
+  padding-top: 40px;
+  flex:1;
+
+
+}
+#hamburgerMenu {
+  flex:1;
+  padding-top:40px;
+
+}
+#hamImage {
+  float:right;
+}
+#navItem {
+  flex:1;
+  padding-top: 15px;
+  font-family: "OpenSans-Bold"
+  font-size:13.2px;
+  line-height: 18px;
+  color:#A9A9A9;
+  text-align:center;
+}
+#devMountainLink {
+  color:#00FFE9;
+}
+#indent {
+  text-indent: 20px;
+}
+#bottomLine {
+  margin-top:10px;
+  background-color: red;
+  
+}

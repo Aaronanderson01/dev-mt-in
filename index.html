@@ -1,27 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
 
 <head>
-	<link type= "text/css" rel= "stylesheet" href = "style.css">
+	<link type= "text/css" rel= "stylesheet" href = "./styles/style.css">
 	<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 	<title>DevMtin</title>
 </head>
 
-<body ng-controller ="mainController">
-	{{test}}
 
-  <footer>
-		<ul>
-			<li id="navItem">View Friends</li>
-			<li id="navItem">Find Friends</li>
-			<li id="navItem">Update Profile</li>
-			</ul>
-			<footer>
-			<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<body ng-controller ="mainController">
+
+	<header>
+
+		<div id="initialText"></div>
+	<div class="menuContainer">
+		<div id="searchButton"><img src="images/Icons/Search.svg"></img></div>
+		<div id="companyName">DevMountain</div>
+		<div id="hamburgerMenu"><img src="images/Icons/Ham.svg" id="hamImage"></div>
+	</div>
+
+<hr class="horizontalLine">
+
+	</header>
+<ui-view></ui-view>
+			<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
 			<script src="app.js"></script>
-			<script src="mainController.js"></script>
-			<script src="mainServices.js"></script>
+			<script src="./controllers/mainController.js"></script>
+			<script src="./controllers/friendProfileCtrl.js"></script>
+			<script src="./controllers/friendSearchCtrl.js"></script>
+			<script src="./controllers/peopleSearchCtrl.js"></script>
+			<script src="./controllers/updateProfileCtrl.js"></script>
+			<script src="./controllers/landingCtrl.js"></script>
+			<script src="./services/mainServices.js"></script>
+			<script src="./services/localStorageService.js"></script>
+
 
 </body>
 </html>

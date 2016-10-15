@@ -1,0 +1,33 @@
+<div class="mainContainer">
+    <div class="textInputContainer"><p id="indent">Welcome to<a id="devMountainLink"> DevMountain</a> Social</P>
+
+      <p>Add Some Info So Friends Can Find You</p>
+
+
+      <input ng-model="inputs.fullName" type="text" class="inputBox" placeholder="Full Name"></input>
+
+      <input ng-model="inputs.tagLine" type = "text"class="inputBox" placeholder="Tagline"></input>
+
+      <input ng-model="inputs.img" type="text"class="inputBox" placeholder="Profile Image URL"></input>
+
+      <textarea ng-model="inputs.bio" class="inputBox" placeholder="Bio" rows="8" colomns="40"></textarea>
+    </div>
+
+    <div class="saveChangesContainer">
+        <button ng-click="saveInputs(inputs); getInputs()" id="saveButton">Save Changes</buton>
+
+    </div>
+
+
+</div>
+
+<div id="bottomLine"> <hr class ="horizontalLine">
+<footer class = "navContainer">
+
+
+    <div id="navItem">View Friends</div>
+    <div id="navItem">Find Friends</div>
+    <div id="navItem">Update Profile</div>
+
+  </footer>
+</div>
